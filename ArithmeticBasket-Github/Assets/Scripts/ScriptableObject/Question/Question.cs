@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+//Scriptable Object used to make question more flexible and clean
 [CreateAssetMenu(menuName = "Scriptable Object/Question")]
 public class Question : ScriptableObject
 {
