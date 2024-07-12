@@ -40,6 +40,7 @@ public class GameplayManager : MonoBehaviour
     public AudioClip wrongAnserAudioClip;
 
     private void Start() {
+        Time.timeScale = 1;
         playerCurrentHealth = 3;
         playerCorrectAnswer = 0;
         scoreText.text = playerCorrectAnswer.ToString();
